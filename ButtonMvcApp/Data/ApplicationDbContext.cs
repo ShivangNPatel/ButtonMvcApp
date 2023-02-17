@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using ButtonMvcApp.Models;
 
 namespace ButtonMvcApp.Data
 {
@@ -12,5 +13,6 @@ namespace ButtonMvcApp.Data
             : base(options)
         {
         }
+        public DbSet<ButtonMvcApp.Models.Button> Button { get; set; }
     }
 }
