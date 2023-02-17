@@ -1,0 +1,11 @@
+﻿img {
+    float:right;
+    width:50%;
+    height:200px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color:yellow;
+}
